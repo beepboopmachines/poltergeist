@@ -8,6 +8,9 @@ require('dotenv').config();
 app.use(express.json());
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.send('hello!')
+})
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
