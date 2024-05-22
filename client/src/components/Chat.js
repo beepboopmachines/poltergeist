@@ -27,7 +27,7 @@ const Chat = () => {
     }, [text]);
 
     const getCompletion = async (inputText) => {
-        const response = await fetch('http://localhost:8000/completion', {
+        const response = await fetch('https://poltergeist-server-5tun9.kinsta.app/completion', {
             method: 'POST',
             body: JSON.stringify({ text: inputText }),
             headers: { 'Content-Type': 'application/json' },
