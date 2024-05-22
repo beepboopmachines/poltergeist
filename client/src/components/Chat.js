@@ -63,7 +63,7 @@ const Chat = () => {
     };
 
     const openLink = () => {
-        window.open('https://calendly.com/d/cpyj-kqh-gcz/poltergeist', '_blank');
+        window.open('https://calendly.com/ricardoasalmeida22/poltergeist?preview_source=et_card&month=2024-05', '_blank');
     };
 
     const handleSoundButtonClick = () => {
